@@ -19,9 +19,8 @@
     },
     "scripts": {
         "test": "standard && tap --coverage test/*.js",
-        "ESM": "echo 'x'",
-        "ESM2": "mocha test/*.js",
-        "CJS": "standard && tap --coverage test/*.js"
+        "ESM": "mocha test/*.js",
+        "CJS": "mocha test/*.js"
     },
     "repository": {
         "type": "git",
